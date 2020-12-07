@@ -21,12 +21,15 @@ public class Main
         //if (!(number == 0)) { // 2. ! -- reverse --> here overcomplicated
             //System.out.println("You entered zero!");
         //}
-        
+
         // input 2 int numbers from user (a,b)
         // if a anb b are equal: print "a equals b"
         // if a anb b are NOT equal: print "a NOT equals b"
-
-
+        // 1*etgar: (a and b should have the max value)
+        // 3, 8 --> 8, 8
+        // 9, 1 --> 9, 9
+        // ... Max
+        // 2***etgar: switch between a and b (hint: use c)
         System.out.println("Program ended...");
 
 
