@@ -25,9 +25,26 @@ public class Main
         // input 2 int numbers from user (a,b)
         // if a anb b are equal: print "a equals b"
         // if a anb b are NOT equal: print "a NOT equals b"
+        System.out.print("Please insert a:");
+        int a = s.nextInt();
+        System.out.print("Please insert b:");
+        int b = s.nextInt();
+        if (a == b) {
+            System.out.println("a equals b");
+        }
+        if (a != b) {
+            System.out.println("a NOT equals b");
+        }
         // 1*etgar: (a and b should have the max value)
         // a=3,b=8 --> result: a=8, b=8
         // a=9,b=1 --> result: a=9, b=9
+        if (a > b) {
+            b = a;
+        }
+        if (b > a) {
+            a = b;
+        }
+
         // ... Max
         // 2***etgar: switch between a and b (hint: use c)
         System.out.println("Program ended...");
