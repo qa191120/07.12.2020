@@ -42,17 +42,36 @@ public class Main
             }
         }
         */
-        
+
         // targil:
-        // 1. input a,b,c (int)
-        //    check if c is the biggest number
-        //    ... if so print "c is the biggest"
+        // 1. input x,y,z (int)
+        //    check if z is the biggest number
+        //    ... if so print "z is the biggest"
         //        use 1 condition with 2 'and'
+        System.out.println("Please enter x");
+        int x = s.nextInt();
+        System.out.println("Please enter y");
+        int y = s.nextInt();
+        System.out.println("Please enter z");
+        int z = s.nextInt();
+        if (z > y && z > x) {
+            System.out.println("z is the biggest");
+        }
+
         // 2. input d,e,f (int)
         //    check if d is the smallest number
-        //    ... if so print "d is the biggest"
-        //        use 1 condition with 2 'or' 
-        
+        //    ... if so print "d is NOT the smallest"
+        //        use 1 condition with 2 'or'
+        System.out.println("Please enter d");
+        int d = s.nextInt();
+        System.out.println("Please enter e");
+        int e = s.nextInt();
+        System.out.println("Please enter f");
+        int f = s.nextInt();
+        if (d >= e || d >= f ) {
+            System.out.println("d is the NOT smallest");
+        }
+
         System.out.println("Program ended...");
 
 
