@@ -26,8 +26,8 @@ public class Main
         // if a anb b are equal: print "a equals b"
         // if a anb b are NOT equal: print "a NOT equals b"
         // 1*etgar: (a and b should have the max value)
-        // 3, 8 --> 8, 8
-        // 9, 1 --> 9, 9
+        // a=3,b=8 --> result: a=8, b=8
+        // a=9,b=1 --> result: a=9, b=9
         // ... Max
         // 2***etgar: switch between a and b (hint: use c)
         System.out.println("Program ended...");
