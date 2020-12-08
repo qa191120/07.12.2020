@@ -1,0 +1,14 @@
+Targil:
+1. input two int numbers from the user, check if they are both zeros, if so print "both zeroes" otherwise print "not both zeroes"
+2. input a,b,c (int) 
+    check if all numbers are different from each-other, if so print "diff" otherwise print "similar"
+3. input x,y,z (float)
+    check and print how many of them are positive 
+    for example: 
+    for input of -1, 4 ,2.98 your program should print 2 positive numbers
+    for input of -4.5, 0, -12 your program should print 0 positive numbers
+4. input a, b, c. 
+   print the biggest
+   hint: if a is bigger than b and bigger than c --> a biggest
+       else if b is bigger than c --> b biggest
+       else --> c biggest
